@@ -20,3 +20,4 @@ Note: If the bin file is not in the same location as the script the full locatio
 
 - Allow renaming of output file.
 - Allow usage of any file to insert the converted bytes into (location will have to be specified).
+- More if there are suggestions.
