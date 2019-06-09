@@ -11,7 +11,7 @@ This script allows for the automatic usage of Peter Van Eeckhoutte's perl script
 ## Usage:
 
 ```bash
-python mmBinEmbed.py [.bin file name] [Optional: Input File Name] [Optional: Output file name]
+python mmBinEmbed.py [.bin file] [Optional: input file] [Optional: Output file]
 ```
 
 - If the bin file is not in the same location as the script the full location can be provided instead.
