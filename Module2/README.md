@@ -22,4 +22,5 @@ python mmBinEmbed.py [.bin file name] [Optional: Input File Name] [Optional: Out
 - Allow to read and write to the same file name.
 - Better way of locating where to embed the data.
 - Improve the command line arguments.
+- Error checking.
 - More if there are suggestions.
