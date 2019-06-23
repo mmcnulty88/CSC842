@@ -12,6 +12,6 @@ mmAutoBinEmbed
 mmBinEmbed
 - added support for embedding into an existing file.
 
-## Module 3"
+## Module 3:
 geoTrace
 
