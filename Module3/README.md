@@ -25,5 +25,6 @@ python geoTrace.py [IP address or Hostname]
 ## Future Work:
 
 - Correct the location tracking for some edge cases.
+- Package the program into a mostly self-contained executable.
 - Adjust how the map is generated so that other regions or world-wide addresses may be shown on the map.
 - Improve the representation of the points on the map beyond hop number.
