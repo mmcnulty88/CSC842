@@ -24,9 +24,9 @@ python hideInWord.py [-h] [-i IMAGE] [-s SECRET] [-o OUTPUT] [-e] [-ei] [-es] fi
 ```
 - "filename" is the input .docx document and must be specified for inserting and extracting.
 - For inserting the image and secret flags are optional, you can choose to use one, both, or none.
-- For extracting the image and secret flags are used for output destination names for the respective extracted files.
-- The output file name may be specified with the output flag or a default of output.docx is used.
-- The flag e will extract both an image and a secret. If the image and secret flags are not specified, then a default output filename is used.
+- The output .docx file name may be specified with the output flag or a default of output.docx is used.
+- For extracting the image and secret flags are used for output destination names for the respective extracted files. If not specified, then default names of extractedImage.jpeg and extractedSecret.txt are used.
+- The flag e will extract both an image and a secret.
 - The flag ei will extract only an image.
 - The flag es will extract only a secret.
 
