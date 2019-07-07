@@ -32,7 +32,7 @@ python hideInWord.py [-h] [-i IMAGE] [-s SECRET] [-o OUTPUT] [-e] [-ei] [-es] fi
 
 ## Current Limitations:
 
-- Images are specific to the .docx documents, though the secret insertion works for other types such as an excel file.
+- Images are specific to the .docx documents, though the secret works for other types such as an excel file.
 - Only the first image is used.
 - A specific file is always used to insert the secret into.
 
