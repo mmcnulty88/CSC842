@@ -15,3 +15,5 @@ mmBinEmbed
 ## Module 3:
 geoTrace
 
+## Module 4:
+hideInWord
