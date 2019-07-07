@@ -1,4 +1,4 @@
-# Module 3 - hideInWord
+# Module 4 - hideInWord
 
 Simple program to hide data into the file structure of a .docx word document while allowing the document to still function correctly.
 Will also allow the hidden data to be extracted from a document.
