@@ -15,7 +15,7 @@ The program takes advantage of the fact that a .docx document is a zip archive o
 ## Requirements:
 
 - The image being inserted must be a jpeg.
-- There must be at least one image in the document to work
+- There must be at least one image in the document to modify if using the image flag.
 
 ## Usage:
 
@@ -26,9 +26,9 @@ python hideInWord.py [-h] [-i IMAGE] [-s SECRET] [-o OUTPUT] [-e] [-ei] [-es] fi
 - For inserting the image and secret flags are optional, you can choose to use one, both, or none.
 - The output .docx file name may be specified with the output flag or a default of output.docx is used.
 - For extracting the image and secret flags are used for output destination names for the respective extracted files. If not specified, then default names of extractedImage.jpeg and extractedSecret.txt are used.
-- The flag e will extract both an image and a secret.
-- The flag ei will extract only an image.
-- The flag es will extract only a secret.
+- The flag e or extractAll will extract both an image and a secret.
+- The flag ei or extractImage will extract only an image.
+- The flag es or extractSecret will extract only a secret.
 
 ## Current Limitations:
 
