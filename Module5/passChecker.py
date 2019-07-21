@@ -116,7 +116,10 @@ for key,value in results.items():
 			print('\t\tYour password is fairly complex, but could be better.')
 		else:
 			print('\t\tYour password is quite complex.')
-		print('\tThis password was found in '+str(foundNum)+' breaches.')
+		
+			#Assuming we got information from haveibeenpwned, then we print the number of breaches it was found in.
+		if check.status_code is 200:
+			print('\tThis password was found in '+str(foundNum)+' breaches.')
 			
 			#We will also use our result from haveibeenpwned here.
 			#If our count isn't 0, then we did find a match from haveibeenpwned.
