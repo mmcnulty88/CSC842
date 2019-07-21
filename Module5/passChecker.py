@@ -1,4 +1,4 @@
-#Simply password check that relies on the entropy of the password rather than complex rules.
+#Simple password checker that relies on the entropy of the password rather than complex rules.
 #It will also check to see if the password has appeared in past breaches and warn the user if so.
 #The zxcvbn library gives feedback on the password based on databases of top password, dictionary words,
 #	names, etc.  The database it uses can be extended for more specific purposes if needed.
